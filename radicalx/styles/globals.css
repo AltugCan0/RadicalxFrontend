@@ -1,0 +1,90 @@
+body{
+  background: #f6f5f9;
+}
+/*SideBar Start*/
+
+.maincontainer {
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background:#fff;
+  border-radius:22px;
+  box-shadow: 0 12px 34px rgba(0,0,0,0.5 );
+  box-sizing: border-box;
+  margin:16px;
+  width: 15em;
+  height: 95%;
+  position: absolute;
+  -webkit-transform: translateZ(0);
+  visibility: visible;
+  -webkit-backface-visibility: hidden;
+
+}
+
+.logoicon {
+  padding: 34px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  
+}
+
+.sideicon{
+  display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    width: 189px;
+}
+
+.sideicon button{ 
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 48px;
+  width: 189px;
+  padding-left: 15px;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  gap: 10px;
+  letter-spacing: 0.3px;
+}
+
+.sideicon button:hover{
+  background-color: #5047f233;
+      color: #793EF5;
+      border: 1px solid #793EF5;
+}
+
+.loginUser { 
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px 29px 20px;
+    gap: 10px;
+}
+.deneme{
+  background: #E2E6EB;
+  border-radius: 16px;
+  height: 50px;
+  width: 50px;
+}
+.loginUser p {
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/*SideBar Finish*/
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+{
+  "name": "radicalx",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "chart.js": "^4.2.1",
+    "next": "13.2.4",
+    "next-with-split": "^5.1.0",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "recharts": "^2.5.0"
+  }
+}
